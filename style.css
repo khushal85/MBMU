@@ -1,0 +1,57 @@
+*{
+  font-family: 'Oswald', sans-serif;
+}
+.w3-top{
+  background-image: linear-gradient(to right,#022b59 80% ,#F5E8E4);
+  color: #EFEFEF;
+}
+.search{
+  color:#022b59;
+}
+#demo{
+  background-image:url("MBMU.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.day3{
+  margin-top:30px;
+  margin-left:115px;
+  height:400px;
+  width:800px;
+  border-radius: 5%;
+}
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 0;
+  padding: 0;
+}
+
+.container img {
+  vertical-align: middle;
+}
+
+.container .content1 {
+  position:absolute;
+  bottom:220px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 1550px;
+  padding-top: 80px;
+  padding-left: 50px;
+  text-align: center;
+  height: 280px;
+}
+.container .content2 {
+  position:absolute;
+  bottom:0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background-image: linear-gradient(to right,#022b59 80% ,#F5E8E4);
+  color: #f1f1f1;
+  width: 1550px;
+  padding: 50px;
+  height: 220px;
+  padding-bottom:20px;
+  text-align: center;
+}
